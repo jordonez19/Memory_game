@@ -13,6 +13,7 @@
 }
 img{
     width: 4cm;
+    border:solid 2px #eeeeee;
 }
 .center{
     text-align: center;
