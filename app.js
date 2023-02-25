@@ -1,51 +1,51 @@
 const cardArray = [
     {
-        name: 'buu',
-        img: '/images/buu.jpg'
+        name: '1',
+        img: '/images/1.jpg'
     },
     {
-        name: 'candy',
-        img: '/images/candy.jpg'
+        name: '2',
+        img: '/images/2.jpg'
     },
     {
-        name: 'edna',
-        img: '/images/edna.jpg'
+        name: '3',
+        img: '/images/3.jpg'
     },
     {
-        name: 'timon',
-        img: '/images/timon.jpg'
+        name: '4',
+        img: '/images/4.jpg'
     },
     {
-        name: 'kusko',
-        img: '/images/kusko.jpg'
+        name: '5',
+        img: '/images/5.jpg'
     },
     {
-        name: 'mufu',
-        img: '/images/mufu.jpg'
+        name: '6',
+        img: '/images/6.jpg'
     },
     {
-        name: 'buu',
-        img: '/images/buu.jpg'
+        name: '1',
+        img: '/images/1.jpg'
     },
     {
-        name: 'candy',
-        img: '/images/candy.jpg'
+        name: '2',
+        img: '/images/2.jpg'
     },
     {
-        name: 'edna',
-        img: '/images/edna.jpg'
+        name: '3',
+        img: '/images/3.jpg'
     },
     {
-        name: 'timon',
-        img: '/images/timon.jpg'
+        name: '4',
+        img: '/images/4.jpg'
     },
     {
-        name: 'kusko',
-        img: '/images/kusko.jpg'
+        name: '5',
+        img: '/images/5.jpg'
     },
     {
-        name: 'mufu',
-        img: '/images/mufu.jpg'
+        name: '6',
+        img: '/images/6.jpg'
     }
 ]
 
@@ -78,7 +78,7 @@ function checkMatch(){
     if(optionOne == optionTwo){
         cards[optionOne].setAttribute('src', 'images/blank.jpg')
         cards[optionTwo].setAttribute('src', 'images/blank.jpg')
-        console.log('you clicked same img')
+        console.log('Has seleccionado la misma imagen')
     }
 
     if(cardsChosen[0] == cardsChosen[1]){
@@ -97,7 +97,7 @@ function checkMatch(){
     cardsChosenIds = []
 
     if(cardsWon.length == (cardArray.length/2) ){
-        result.textContent = 'Congratulations you did it!'
+        result.textContent = 'Te ganaste una moradita!'
     }
 }
 
